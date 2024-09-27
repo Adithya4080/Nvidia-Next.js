@@ -1,5 +1,6 @@
 import NavBarItem from "./component/navbar/page";
-import Spotlight from "./component/spotlight/page";
+import Model from "./component/screens/models/page";
+import Spotlight from "./component/screens/spotlight/page";
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
 		<>
 			<NavBarItem/>	
 			<Spotlight />
+			<Model />
 		</>
 	);
 }

@@ -1,4 +1,5 @@
 import { CiPlay1 } from "react-icons/ci";
+import NavBarbot from "../../navbar/navBarbot";
 
 export default function Spotlight() {
     return (
@@ -20,6 +21,7 @@ export default function Spotlight() {
                     </button>
                 </div>
             </div>
+            <NavBarbot />
         </>
     )
 }

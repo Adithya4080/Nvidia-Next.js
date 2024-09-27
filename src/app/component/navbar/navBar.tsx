@@ -3,7 +3,7 @@ import { IoMdArrowDropdown } from "react-icons/io";
 export default function Navbar() {
     return (
         <>
-            <div className="border-b-8 border-[#005400] sticky top-0">
+            <div className="bg-black sticky top-0 z-10">
                 <div className="wrapper py-4 flex gap-10 items-center">
                     <div>
                         <h2 className="font-bold text-[30px]">
@@ -33,6 +33,7 @@ export default function Navbar() {
                     </div>
                 </div>
             </div>
+            <div className="border-b-8 border-[#005400] "></div>
         </>
     )
 }
