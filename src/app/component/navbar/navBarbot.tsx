@@ -2,7 +2,7 @@
 export default function NavBarbot() {
     return (
         <>
-            <div className="bg-[#1a1a1a] sticky top-20">
+            <div className="bg-[#1a1a1a] sticky top-[77px] z-10">
                 <div className="wrapper flex justify-between items-center py-4 cursor-pointer">
                     <div>
                         <ul className="flex gap-7 text-[16px] font-medium">
