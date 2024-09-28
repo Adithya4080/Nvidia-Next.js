@@ -26,6 +26,18 @@ export default function Run() {
                     <h6 className="text-[18px]">See How to Deploy NIM in Five Minutes</h6>
                     <IoIosArrowForward className="text-[24px] font-bold text-[#5fb900] hover:text-white" />
                 </div>
+
+                <div className="flex w-full ">
+                    <div className="w-1/2">
+                        <div>
+                            <h4>Deploy NIM</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
             </div>
         </>
     )
