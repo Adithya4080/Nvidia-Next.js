@@ -1,4 +1,4 @@
-
+import { IoIosArrowForward } from "react-icons/io";
 
 export default function Integrations() {
     return (
@@ -35,8 +35,9 @@ export default function Integrations() {
                         </div>
                     </div>
                 </div>
-                <div className="flex justify-center pb-20 font-bold text-[20px]">
-                    <h6>Learn More About Building With NVIDIA NIM</h6>
+                <div className="flex justify-center items-center pb-20 font-bold">
+                    <h6 className=" text-[20px]">Learn More About Building With NVIDIA NIM</h6>
+                    <IoIosArrowForward className="text-[24px] font-bold text-[#5fb900] hover:text-white" />
                 </div>
                 <div className="border-b-2 border-[#999999] mb-3"></div>
             </div>
