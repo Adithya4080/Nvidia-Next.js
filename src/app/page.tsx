@@ -1,3 +1,4 @@
+import Footer from "./component/footer/page";
 import NavBarItem from "./component/navbar/page";
 import Case from "./component/screens/cases/page";
 import Docs from "./component/screens/docs/page";
@@ -19,6 +20,7 @@ export default function Home() {
 			<Case />
 			<Resource />
 			<Docs />
+			<Footer />
 		</>
 	);
 }
