@@ -65,7 +65,7 @@ export default function Navbar() {
 
     return (
         <>
-            <div className="bg-black sticky top-0 z-10">
+            <div className="bg-black sticky top-0 z-20">
                 <div className="wrapper py-4 flex gap-10 items-center">
                     <div>
                         <h2 className="font-bold text-[30px] text-white">

@@ -27,15 +27,81 @@ export default function Run() {
                     <IoIosArrowForward className="text-[24px] font-bold text-[#5fb900] hover:text-white" />
                 </div>
 
-                <div className="flex w-full ">
-                    <div className="w-1/2">
+                <div className="flex w-full h-full py-10 gap-4">
+                    <div className="w-1/2 space-y-10 last:space-y-0">
                         <div>
-                            <h4>Deploy NIM</h4>
-                            <p></p>
+                            <h4 className="text-[26px] font-bold mb-4">
+                                Deploy NIM
+                            </h4>
+                            <p>
+                                Deploy NIM for your model with a single command. You can also easily run NIM with fine tuned-models.
+                            </p>
+                        </div>
+                        <div>
+                            <h4 className="text-[26px] font-bold mb-4">
+                                Run Inference
+                            </h4>
+                            <p>
+                                Get NIM up and running with the optimal runtime engine based on your NVIDIA-accelerated infrastructure.
+                            </p>
+                        </div>
+                        <div>
+                            <h4 className="text-[26px] font-bold mb-4">
+                                Build
+                            </h4>
+                            <p>
+                                Developers can integrate self-hosted NIM endpoints in just a few lines of code. 
+                            </p>
                         </div>
                     </div>
-                    <div>
+                    <div className="space-y-5 w-1/2">
+                        <div className="flex items-center gap-4">
+                            <span className="bg-[#333333] font-medium py-1 px-2 rounded-lg">Deploy</span>
+                            <span>Run</span>
+                            <span>Biuld</span>
+                        </div>
+                        <div className="bg-[#101010] border border-[#424242] rounded-xl w-full h-full p-10">
+                            docker run nvcr.io/nim/publisher_name/model_name
+                        </div>
+                    </div>
+                </div>
+                <div className="border-b-2 border-[#999999] mt-20"></div>
 
+                <div className="py-20">
+                    <div className="flex justify-between gap-10 w-full">
+                        <div className="flex flex-col items-center justify-center w-1/2">
+                            <div className="w-[100px]">
+                                <img src="/images/kubernets.svg" alt="Kubernetes" className="w-full mb-5" />
+                            </div>
+                            <h4 className="text-[24px] font-bold mb-3">
+                                Launch Locally or Scale With Kubernetes
+                            </h4>
+                            <p className="text-center">
+                                Seamlessly deploy containerized AI microservices on any NVIDIA accelerated infrastructure, from a single device to data center scale.
+                            </p>
+                        </div>
+                        <div className="flex flex-col items-center w-1/2">
+                            <div className="w-[100px]">
+                                <img src="/images/Security.svg" alt="" className="w-full mb-5" />
+                            </div>
+                            <h4 className="text-[24px] font-bold mb-3">
+                                Deploy Securely With Confidence
+                            </h4>
+                            <p className="text-center">
+                                Rely on production-grade runtimes, including ongoing security updates, and run your business applications with stable APIs backed by enterprise-grade support.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="flex flex-col items-center mt-10">
+                        <div className="w-[100px]">
+                            <img src="/images/Carbon.svg" alt="Carbon Footprint" className="w-full mb-5" />
+                        </div>
+                        <h4 className="text-[24px] font-bold mb-3">
+                            Lower Costs and Your Carbon Footprint
+                        </h4>
+                        <p className="text-center max-w-[850px]">
+                            Lower the operational cost of running models in production with AI runtimes that are continuously optimized for low latency and high throughput on NVIDIA-accelerated infrastructure.
+                        </p>
                     </div>
                 </div>
             </div>
