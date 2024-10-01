@@ -24,8 +24,8 @@ export default function Docs() {
                 </div>
             </div>
             <div className="wrapper py-10">
-                <div className="flex w-full gap-8">
-                    <div className="w-1/4">
+                <div className="w-full grid grid-cols-4 gap-8 max-[768px]:grid-cols-3 max-[540px]:grid-cols-2">
+                    <div>
                         <h5 className="text-[24px] font-bold">
                             Products
                         </h5>
@@ -78,7 +78,7 @@ export default function Docs() {
                             </li>
                         </ul>
                     </div>
-                    <div className="w-1/4">
+                    <div>
                         <h5 className="text-[24px] font-bold">
                             Technologies
                         </h5>
@@ -106,7 +106,7 @@ export default function Docs() {
                             </li>
                         </ul>
                     </div>
-                    <div className="w-1/4">
+                    <div>
                         <h5 className="text-[24px] font-bold">
                             Resources
                         </h5>
@@ -189,7 +189,7 @@ export default function Docs() {
                             </li>
                         </ul>
                     </div>
-                    <div className="w-1/4">
+                    <div>
                         <h5 className="text-[24px] font-bold">
                             Company Info
                         </h5>

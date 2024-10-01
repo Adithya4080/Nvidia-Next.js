@@ -3,13 +3,13 @@ import { IoIosArrowForward } from "react-icons/io";
 export default function Resource() {
     return (
         <>
-            <div className="bg-[#eeeeee] text-black">
+            <div className="bg-[#eeeeee] text-black max-[1080px]:hidden">
                 <div className="wrapper pb-20">
                     <div className="flex flex-col items-center space-y-3 pb-10">
                         <h6 className="text-[20px] font-bold">
                             Resources
                         </h6>
-                        <h4 className="text-[36px] font-bold">
+                        <h4 className="text-[36px] max-[768px]:text-[30px] max-[540px]:text-[22px] font-bold">
                             Unlock, Upskill, and Upscale
                         </h4>
                     </div>
