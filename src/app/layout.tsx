@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import NavBarItem from "./component/navbar/page";
+import Footer from "./component/footer/page";
 
 
 // export const metadata: Metadata = {
@@ -12,14 +14,16 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <head>
-        <title>Deploy Generative AI with NVIDIA</title>
-      </head>
-      <body>
-        {children}
-      </body>
-    </html>
-  );
+	return (
+		<html lang="en">
+			<head>
+				<title>Deploy Generative AI with NVIDIA</title>
+			</head>
+			<body>
+				<NavBarItem />
+					{children}
+				<Footer />
+			</body>
+		</html>
+	);
 }

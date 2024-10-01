@@ -11,7 +11,7 @@ export default function Model() {
                 </div>
                 <div className="mt-10 flex gap-4 w-full">
                     <div 
-                        className="w-1/4 h-[210px] rounded-2xl pl-10 pt-6" 
+                        className="w-1/4 h-[210px] rounded-2xl pl-10 pt-6 max-[1230px]:pl-5" 
                         style={{backgroundImage:`url('/images/bg1.jpg')`, backgroundSize:'cover', backgroundPosition:'center', opacity:'0.9'}}
                     >
                         <span className="bg-[#debae8] text-[#5a066d] rounded-md px-2 py-1 text-[16px] font-medium">
@@ -22,7 +22,7 @@ export default function Model() {
                             <p className="text-[18px] font-bold">
                                 Ilama-3.1-405b-instruct
                             </p>
-                            <div className="flex gap-1">
+                            <div className="flex gap-1  ">
                                 <button className="bg-[#a19fb4] text-[#3e3d43] text-[14px] p-1 rounded-xl font-medium">
                                     synthethic data generation
                                 </button>

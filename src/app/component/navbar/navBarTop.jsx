@@ -6,7 +6,7 @@ export default function NavbarTop() {
     return (
         <>
         <div className="bg-white">
-            <div className="flex justify-between items-center wrapper py-1">
+            <div className="flex justify-between items-center wrapper py-1 max-[580px]:hidden">
                 <div className="w-[150px]">
                     <h1 className="text-black">
                         <Link href="/">
