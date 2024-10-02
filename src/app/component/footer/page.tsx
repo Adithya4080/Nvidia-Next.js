@@ -89,7 +89,7 @@ export default function Footer() {
             <div className="bg-white">
                 <div className="wrapper py-3 px-4 md:px-8 lg:px-16">
                     <div className="flex flex-col md:flex-row justify-between items-center md:items-start">
-                        <div className="w-[150px] mb-4 md:mb-0">
+                        <div className="w-[150px]">
                             <h1>
                                 <Link href="#">
                                     <img 
