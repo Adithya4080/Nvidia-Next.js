@@ -239,7 +239,7 @@ export default function Navbar() {
             <div className="bg-black sticky top-0 z-20">
                 <div className="wrapper py-4 flex justify-between items-center gap-10">
                     <div>
-                        <h2 className="font-bold text-[30px] text-white">
+                        <h2 className="font-bold text-[30px] max-[76px]:text-[24px] max-[480px]:text-[20px] text-white">
                             Artificial Intelligence
                         </h2>
                     </div>
@@ -260,24 +260,6 @@ export default function Navbar() {
                                     <IoMdArrowDropdown className="text-2xl" />
                                
                             </li>
-                            {/* <li className="flex items-center gap-1 dropdown relative" onClick={() => toggleDropdown('solutions')}>
-                                Solutions
-                                <IoMdArrowDropdown className="text-2xl" />
-                                {openDropdown === 'solutions' && (
-                                    <ul className="absolute top-6 bg-white text-black mt-2 px-10 py-8 shadow-md space-y-4 whitespace-nowrap">
-                                        <li className="text-[#7d7d7d] hover:text-[#7fbe11]">Overview</li>
-                                        <li className="text-[#7d7d7d] hover:text-[#7fbe11]">AI Platform</li>
-                                        <li className="text-[#7d7d7d] hover:text-[#7fbe11]">AI Inference</li>
-                                        <li className="text-[#7d7d7d] hover:text-[#7fbe11]">AI Workflows</li>
-                                        <li className="text-[#7d7d7d] hover:text-[#7fbe11]">Conversational AI</li>
-                                        <li className="text-[#7d7d7d] hover:text-[#7fbe11]">Data Analytics</li>
-                                        <li className="text-[#7d7d7d] hover:text-[#7fbe11]">Generative AI</li>
-                                        <li className="text-[#7d7d7d] hover:text-[#7fbe11]">Machine Learning</li>
-                                        <li className="text-[#7d7d7d] hover:text-[#7fbe11]">Prediction and Forecasting</li>
-                                        <li className="text-[#7d7d7d] hover:text-[#7fbe11]">Speech AI</li>
-                                    </ul>
-                                )}
-                            </li> */}
                             <li className="flex items-center gap-1 dropdown relative" onClick={() => toggleDropdown('software')}>
                                 Software
                                 <IoMdArrowDropdown className="text-2xl" />

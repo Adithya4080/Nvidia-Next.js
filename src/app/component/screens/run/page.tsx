@@ -18,11 +18,11 @@ export default function Run() {
                 <div>
                     <img src="/images/run1.jpg" alt="Info" />
                 </div>
-                <div className="flex justify-center font-bold">
+                <div className="flex justify-center font-bold cursor-pointer">
                     <h6 className="text-[18px] max-[680px]:text-[14px]">Learn More About NVIDIA NIM</h6>
                     <IoIosArrowForward className="text-[24px] font-bold text-[#5fb900] hover:text-white" />
                 </div>
-                <div className="flex justify-center items-center font-bold py-2">
+                <div className="flex justify-center items-center font-bold py-2 cursor-pointer">
                     <h6 className="text-[18px] max-[680px]:text-[14px]">See How to Deploy NIM in Five Minutes</h6>
                     <IoIosArrowForward className="text-[24px] font-bold text-[#5fb900] hover:text-white" />
                 </div>
@@ -55,7 +55,7 @@ export default function Run() {
                         </div>
                     </div>
                     <div className="space-y-5 w-1/2 max-[768px]:w-full max-[768px]:mt-3">
-                        <div className="flex items-center gap-4">
+                        <div className="flex items-center gap-4 cursor-pointer">
                             <span className="bg-[#333333] font-medium py-1 px-2 rounded-lg">Deploy</span>
                             <span>Run</span>
                             <span>Biuld</span>

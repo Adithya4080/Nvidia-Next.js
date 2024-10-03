@@ -28,7 +28,7 @@ export default function Case() {
                             <p className="pb-10 h-[150px] max-[1160px]:h-[250px] max-[768px]:h-[200px] max-[580px]:h-[250px] max-[480px]:h-[180px]">
                                 Bring game characters to life or create interactive virtual avatars to enhance customer service, empowering your application to connect more deeply with users.
                             </p>
-                            <span className="text-[20px] max-[768px]:text-[16px] font-bold flex items-center">
+                            <span className="text-[20px] max-[768px]:text-[16px] font-bold flex items-center cursor-pointer">
                                 Learn More
                                 <IoIosArrowForward className="text-[20px] font-extrabold text-[#7fb900] hover:text-black" />
                             </span>
@@ -45,7 +45,7 @@ export default function Case() {
                             <p className="pb-10 h-[150px] max-[1160px]:h-[250px] max-[768px]:h-[200px] max-[580px]:h-[250px] max-[480px]:h-[180px]">
                                 Generate highly relevant, bespoke, and accurate content, grounded in the domain expertise and proprietary IP of your enterprise.
                             </p>
-                            <span className="text-[20px] max-[768px]:text-[16px] font-bold flex items-center">
+                            <span className="text-[20px] max-[768px]:text-[16px] font-bold flex items-center cursor-pointer">
                                 Learn More
                                 <IoIosArrowForward className="text-[20px] font-extrabold text-[#7fb900] hover:text-black" />
                             </span>
@@ -62,7 +62,7 @@ export default function Case() {
                             <p className="pb-10 h-[150px] max-[1160px]:h-[250px] max-[768px]:h-[200px] max-[580px]:h-[250px] max-[480px]:h-[180px]">
                                 Biomolecular generative models and the computational power of GPUs efficiently explore the chemical space, rapidly generating diverse sets of small molecules tailored to specific drug targets or properties.
                             </p>
-                            <span className="text-[20px] max-[768px]:text-[16px] font-bold flex items-center">
+                            <span className="text-[20px] max-[768px]:text-[16px] font-bold flex items-center cursor-pointer">
                                 Learn More
                                 <IoIosArrowForward className="text-[20px] font-extrabold text-[#7fb900] hover:text-black" />
                             </span>

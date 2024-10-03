@@ -6,10 +6,10 @@ export default function Industries() {
             <div className="bg-white text-black">
                 <div className="wrapper py-20">
                     <div className=" flex flex-col justify-center items-center space-y-4">
-                        <h2 className="text-[36px] font-bold">
+                        <h2 className="text-[36px] font-bold text-center max-[768px]:text-[28px]">
                             Revolutionizing the Future of Industries
                         </h2>
-                        <p className="text-[24px] max-w-[700px] text-center">
+                        <p className="text-[24px] max-w-[700px] text-center max-[768px]:text-[20px]">
                             Discover the possibility, power, and performance of AI and accelerated computing from the cloud to the edge.
                         </p>
                         <button className="bg-[#91c733] font-bold p-4 text-[20px]">
@@ -46,7 +46,7 @@ export default function Industries() {
                                 <p className="pb-10 h-[150px] max-[1160px]:h-[250px] max-[768px]:h-[200px] max-[580px]:h-[250px] max-[480px]:h-[180px]">
                                     Bring game characters to life or create interactive virtual avatars to enhance customer service, empowering your application to connect more deeply with users.
                                 </p>
-                                <span className="text-[20px] max-[768px]:text-[16px] font-bold flex items-center">
+                                <span className="text-[20px] max-[768px]:text-[16px] font-bold flex items-center cursor-pointer">
                                     Learn More
                                     <IoIosArrowForward className="text-[20px] font-extrabold text-[#7fb900] hover:text-black" />
                                 </span>
@@ -63,7 +63,7 @@ export default function Industries() {
                                 <p className="pb-10 h-[150px] max-[1160px]:h-[250px] max-[768px]:h-[200px] max-[580px]:h-[250px] max-[480px]:h-[180px]">
                                     Generate highly relevant, bespoke, and accurate content, grounded in the domain expertise and proprietary IP of your enterprise.
                                 </p>
-                                <span className="text-[20px] max-[768px]:text-[16px] font-bold flex items-center">
+                                <span className="text-[20px] max-[768px]:text-[16px] font-bold flex items-center cursor-pointer">
                                     Learn More
                                     <IoIosArrowForward className="text-[20px] font-extrabold text-[#7fb900] hover:text-black" />
                                 </span>
@@ -80,7 +80,7 @@ export default function Industries() {
                                 <p className="pb-10 h-[150px] max-[1160px]:h-[250px] max-[768px]:h-[200px] max-[580px]:h-[250px] max-[480px]:h-[180px]">
                                     Biomolecular generative models and the computational power of GPUs efficiently explore the chemical space, rapidly generating diverse sets of small molecules tailored to specific drug targets or properties.
                                 </p>
-                                <span className="text-[20px] max-[768px]:text-[16px] font-bold flex items-center">
+                                <span className="text-[20px] max-[768px]:text-[16px] font-bold flex items-center cursor-pointer">
                                     Learn More
                                     <IoIosArrowForward className="text-[20px] font-extrabold text-[#7fb900] hover:text-black" />
                                 </span>
@@ -92,7 +92,7 @@ export default function Industries() {
 
             <div className="bg-[#eeeeee] py-20 text-black">
                 <div className="wrapper">
-                    <div className="grid grid-cols-3 px-20">
+                    <div className="grid grid-cols-3 px-20 max-[1280px]:px-0 max-[1080px]:grid-cols-2 max-[680px]:grid-cols-1">
                         <div className="flex flex-col justify-center items-center text-center space-y-3">
                             <div>
                                 <img src="/images/discuss.svg" alt="Discuss" />
@@ -103,12 +103,12 @@ export default function Industries() {
                             <p className="max-w-[300px]">
                                 The world's leading experts explain how AI works, how it's evolving, and how it impacts every human endeavor.
                             </p>
-                            <span className="text-[20px] max-[768px]:text-[16px] font-bold flex items-center">
+                            <span className="text-[20px] max-[768px]:text-[16px] font-bold flex items-center cursor-pointer">
                                 Lets Talk
                                 <IoIosArrowForward className="text-[20px] font-extrabold text-[#7fb900] hover:text-black" />
                             </span>
                         </div>
-                        <div className="flex flex-col justify-center items-center text-center space-y-3">
+                        <div className="flex flex-col justify-center items-center text-center space-y-3 max-[680px]:mt-3">
                             <div>
                                 <img src="/images/discover.svg" alt="Discover" />
                             </div>
@@ -118,12 +118,12 @@ export default function Industries() {
                             <p className="max-w-[300px]">
                                 The NVIDIA Deep Learning Institute (DLI) offers hands-on training in AI, accelerated computing, and accelerated data science.
                             </p>
-                            <span className="text-[20px] max-[768px]:text-[16px] font-bold flex items-center">
+                            <span className="text-[20px] max-[768px]:text-[16px] font-bold flex items-center cursor-pointer">
                                 Start Learning
                                 <IoIosArrowForward className="text-[20px] font-extrabold text-[#7fb900] hover:text-black" />
                             </span>
                         </div>
-                        <div className="flex flex-col justify-center items-center text-center space-y-3">
+                        <div className="flex flex-col justify-center items-center text-center space-y-3 max-[1080px]:mt-3">
                             <div>
                                 <img src="/images/develop.svg" alt="Develop" />
                             </div>
@@ -133,7 +133,7 @@ export default function Industries() {
                             <p className="max-w-[300px]">
                             Access hundreds of GPU-accelerated containers, models, and SDKs—all the tools necessary to successfully build apps.
                             </p>
-                            <span className="text-[20px] max-[768px]:text-[16px] font-bold flex items-center">
+                            <span className="text-[20px] max-[768px]:text-[16px] font-bold flex items-center cursor-pointer">
                                 Start Building
                                 <IoIosArrowForward className="text-[20px] font-extrabold text-[#7fb900] hover:text-black" />
                             </span>

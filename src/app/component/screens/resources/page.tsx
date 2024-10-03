@@ -28,7 +28,7 @@ export default function Resource() {
                                 <p className="text-[#4d4c4d] h-[150px]">
                                     Experience end-to-end AI solutions through guided hands-on labs for development frameworks, retrieval-augmented generation (RAG)-based chatbots, route optimizations, and more.
                                 </p>
-                                <span className="text-[20px] font-bold flex items-center">
+                                <span className="text-[20px] font-bold flex items-center cursor-pointer">
                                     Go To LaunchPad
                                     <IoIosArrowForward className="text-[20px] font-extrabold text-[#7fb900] hover:text-black" />
                                 </span>
@@ -48,7 +48,7 @@ export default function Resource() {
                                 <p className="text-[#4d4c4d] h-[150px]">
                                     Get free access to NIM for application development, research, and testing plus technical learning resources through the NVIDIA Developer Program.
                                 </p>
-                                <span className="text-[20px] font-bold flex items-center">
+                                <span className="text-[20px] font-bold flex items-center cursor-pointer">
                                     Start Building
                                     <IoIosArrowForward className="text-[20px] font-extrabold text-[#7fb900] hover:text-black" />
                                 </span>
@@ -68,7 +68,7 @@ export default function Resource() {
                                 <p className="text-[#4d4c4d]">
                                     NVIDIA AI Workbench gives developers the flexibility to run API-enabled models on local or remote GPU-powered containers, allowing for interactive project workflows from experimentation to prototyping to proof of concept.
                                 </p>
-                                <span className="text-[20px] font-bold flex items-center">
+                                <span className="text-[20px] font-bold flex items-center cursor-pointer">
                                     Learn More ABout AI Workbench
                                     <IoIosArrowForward className="text-[20px] font-extrabold text-[#7fb900] hover:text-black" />
                                 </span>
@@ -88,7 +88,7 @@ export default function Resource() {
                                 <p className="text-[#4d4c4d] h-[150px]">
                                     Check out the latest NVIDIA press releases to see how NIM and generative AI are impacting industries, partners, customers, and more.
                                 </p>
-                                <span className="text-[20px] font-bold flex items-center">
+                                <span className="text-[20px] font-bold flex items-center cursor-pointer">
                                     View More
                                     <IoIosArrowForward className="text-[20px] font-extrabold text-[#7fb900] hover:text-black" />
                                 </span>

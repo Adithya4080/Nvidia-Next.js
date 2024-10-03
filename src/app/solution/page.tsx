@@ -25,7 +25,7 @@ export default function Solution() {
                             <p className="max-w-[500px] max-[900px]:max-w-full">
                                 Learn why AI needs to be taken out of silos and integrated into the data center or cloud to be infused into an organization.
                             </p>
-                            <span className="text-[20px] max-[768px]:text-[16px] font-bold flex items-center">
+                            <span className="text-[20px] max-[768px]:text-[16px] font-bold flex items-center cursor-pointer">
                                 Read IDC Report
                                 <IoIosArrowForward className="text-[20px] font-extrabold text-[#7fb900] hover:text-black" />
                             </span>
@@ -238,7 +238,6 @@ export default function Solution() {
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pt-10">
-                        {/* Card 1 */}
                         <div className="flex gap-4 lg:gap-6 flex-col sm:flex-row">
                             <div className="w-[100px] lg:w-[160px] mx-auto sm:mx-0">
                                 <img src="/images/augmented.svg" alt="Enterprise" className="w-full" />
@@ -256,8 +255,6 @@ export default function Solution() {
                                 </span>
                             </div>
                         </div>
-
-                        {/* Card 2 */}
                         <div className="flex gap-4 lg:gap-6 flex-col sm:flex-row">
                             <div className="w-[100px] mx-auto sm:mx-0">
                                 <img src="/images/augmented.svg" alt="Enterprise" className="w-full" />
@@ -275,8 +272,6 @@ export default function Solution() {
                                 </span>
                             </div>
                         </div>
-
-                        {/* Card 3 */}
                         <div className="flex gap-4 lg:gap-6 flex-col sm:flex-row">
                             <div className="w-[100px] lg:w-[160px] mx-auto sm:mx-0">
                                 <img src="/images/development.svg" alt="Enterprise" className="w-full" />
@@ -295,61 +290,6 @@ export default function Solution() {
                             </div>
                         </div>
                     </div>
-
-
-                    {/* <div className="grid grid-cols-3 gap-4 pt-10">
-                        <div className="flex gap-6">
-                            <div className="w-[160px]">
-                                <img src="/images/augmented.svg" alt="Enterprise" className="w-full" />
-                            </div>
-                            <div className="space-y-3">
-                                <h6 className="text-[22px] font-bold">
-                                    For Enterprise Leaders
-                                </h6>
-                                <p>
-                                    Innovate, mitigate risk, and capitalize on AI and accelerated computing opportunities.
-                                </p>
-                                <span className="text-[14px] max-[768px]:text-[16px] font-bold flex items-center cursor-pointer">
-                                    Explore Executive Insights
-                                    <IoIosArrowForward className="text-[20px] font-extrabold text-[#7fb900] hover:text-white" />
-                                </span>
-                            </div>
-                        </div>
-                        <div className="flex gap-6">
-                            <div className="w-[100px]">
-                                <img src="/images/augmented.svg" alt="Enterprise" className="w-full" />
-                            </div>
-                            <div className="space-y-3">
-                                <h6 className="text-[22px] font-bold">
-                                    For Infrastructure and IT Leaders
-                                </h6>
-                                <p className="max-w-[400px]">
-                                    Power your business with a secure, scalable, full-stack AI platform that runs anywhere.
-                                </p>
-                                <span className="text-[14px] max-[768px]:text-[16px] font-bold flex items-center cursor-pointer">
-                                    Explore AI Infrastructure Resources
-                                    <IoIosArrowForward className="text-[20px] font-extrabold text-[#7fb900] hover:text-white" />
-                                </span>
-                            </div>
-                        </div>
-                        <div className="flex gap-6">
-                            <div className="w-[160px]">
-                                <img src="/images/development.svg" alt="Enterprise" className="w-full" />
-                            </div>
-                            <div className="space-y-3">
-                                <h6 className="text-[22px] font-bold">
-                                    For Developers
-                                </h6>
-                                <p>
-                                    Get the AI tools, training, and technical resources you need to develop AI applications faster.
-                                </p>
-                                <span className="text-[14px] max-[768px]:text-[16px] font-bold flex items-center cursor-pointer">
-                                    Explore Generative AI Development Tools
-                                    <IoIosArrowForward className="text-[20px] font-extrabold text-[#7fb900] hover:text-white" />
-                                </span>
-                            </div>
-                        </div>
-                    </div> */}
                 </div>
             </div>
         </>

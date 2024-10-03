@@ -35,7 +35,7 @@ export default function Integrations() {
                         </div>
                     </div>
                 </div>
-                <div className="flex justify-center items-center pb-20 font-bold">
+                <div className="flex justify-center items-center pb-20 font-bold cursor-pointer">
                     <h6 className=" text-[20px] max-[640px]:text-[16px] max-[480px]:text-[14px]">Learn More About Building With NVIDIA NIM</h6>
                     <IoIosArrowForward className="text-[24px] font-bold text-[#5fb900] hover:text-white" />
                 </div>
